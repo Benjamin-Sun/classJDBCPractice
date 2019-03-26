@@ -10,7 +10,7 @@ public class Conn {
 
     static {
         try {
-            InputStream inputStream = new FileInputStream("db.properties");
+            InputStream inputStream = new FileInputStream("again/db.properties");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
