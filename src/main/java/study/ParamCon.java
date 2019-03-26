@@ -1,3 +1,5 @@
+package study;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
@@ -6,7 +8,7 @@ public class ParamCon {
     private static Properties properties=new Properties();
 
     static {
-        InputStream is=ParamCon.class.getClassLoader().getResourceAsStream("db.properties");
+        InputStream is=ParamCon.class.getClassLoader().getResourceAsStream("study/db.properties");
         try {
             properties.load(is);
         } catch (IOException e) {

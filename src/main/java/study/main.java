@@ -1,3 +1,5 @@
+package study;
+
 import java.sql.*;
 
 public class main {
