@@ -4,10 +4,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
-public class Test {
-    public static void main(String[] args) throws SQLException {
-        getAll();
-    }
+public class Repository {
 
     public static List<Student> getAll() throws SQLException {
         String sql = "SELECT * FROM student";
