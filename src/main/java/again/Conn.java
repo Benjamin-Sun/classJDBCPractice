@@ -1,17 +1,28 @@
 package again;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.InputStream;
+import java.io.*;
 import java.util.Properties;
 
 public class Conn {
     private static Properties properties = new Properties();
 
+//    public static void main(String[] args) {
+//        try {
+//            InputStream inputStream = new FileInputStream("/Users/benjamin/IdeaProjects/classJDBCPractice/src/main/java/again/db.properties");
+//            properties.load(inputStream);
+//        }  catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//        System.out.println(properties.getProperty("driver"));
+//    }
+
     static {
         try {
-            InputStream inputStream = new FileInputStream("again/db.properties");
+            InputStream inputStream = new FileInputStream("/Users/benjamin/IdeaProjects/classJDBCPractice/src/main/java/again/db.properties");
+            properties.load(inputStream);
         } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }

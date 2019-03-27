@@ -5,7 +5,7 @@ import java.sql.*;
 public class Util {
     static {
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName(Conn.DRIVER);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
