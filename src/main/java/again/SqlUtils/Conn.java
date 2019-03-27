@@ -1,4 +1,4 @@
-package again;
+package again.SqlUtils;
 
 import java.io.*;
 import java.util.Properties;
