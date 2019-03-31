@@ -1,8 +1,6 @@
-package again;
-
-import again.SqlUtils.Query;
-import again.SqlUtils.ResultSetObject;
-import again.entity.Student;
+import SqlUtils.Query;
+import SqlUtils.ResultSetObject;
+import entity.Student;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

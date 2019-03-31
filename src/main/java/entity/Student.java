@@ -1,4 +1,4 @@
-package again.entity;
+package entity;
 
 public class Student {
     private int sno;

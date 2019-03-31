@@ -1,4 +1,4 @@
-package again.SqlUtils;
+package SqlUtils;
 
 import java.io.*;
 import java.util.Properties;
@@ -18,7 +18,7 @@ public class Conn {
 
     static {
         try {
-            InputStream inputStream = new FileInputStream("/Users/benjamin/IdeaProjects/classJDBCPractice/src/main/java/again/db.properties");
+            InputStream inputStream = new FileInputStream("/Users/benjamin/IdeaProjects/classJDBCPractice/src/main/java/db.properties");
             properties.load(inputStream);
         } catch (FileNotFoundException e) {
             e.printStackTrace();

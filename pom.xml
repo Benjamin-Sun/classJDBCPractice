@@ -38,6 +38,11 @@
       <artifactId>mysql-connector-java</artifactId>
       <version>5.1.47</version>
     </dependency>
+    <dependency>
+      <groupId>Benjamin_Sun</groupId>
+      <artifactId>DBConnection</artifactId>
+      <version>1.0.0</version>
+    </dependency>
 
   </dependencies>
 
